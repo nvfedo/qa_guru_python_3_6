@@ -85,7 +85,7 @@ def test_read_pdf_file():
         os.remove('pdf_test.pdf')
         assert pdf_content.__contains__('Instructions for')
         print('Done!')
-#
+
 
 
 def test_read_csv_file():
