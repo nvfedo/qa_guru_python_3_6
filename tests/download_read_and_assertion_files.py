@@ -87,7 +87,6 @@ def test_read_pdf_file():
         print('Done!')
 
 
-
 def test_read_csv_file():
     with ZipFile(resourses_zip_dir, "r") as zip_read_csv_file:
         print('\nReading & Asserting csv file...')
