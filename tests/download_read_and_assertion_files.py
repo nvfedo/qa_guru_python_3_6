@@ -6,6 +6,8 @@ from PyPDF2 import PdfReader
 
 
 # Получить родительскую директорию:
+
+
 # parent = os.pardir
 # path = os.getcwd()
 # print(path)
@@ -35,7 +37,8 @@ sheet['B1'] = 1
 sheet['B2'] = 2
 book.save(resourses_xlsx_dir)
 
-# Cкачивание файла pdf
+
+# Cкачивание файла xlsx
 
 
 # xlsx_url = 'https://freetestdata.com/wp-content/uploads/2021/09/Free_Test_Data_100KB_XLSX.xlsx'
@@ -43,6 +46,7 @@ book.save(resourses_xlsx_dir)
 #
 # with open(resourses_xlsx_dir, 'wb') as xlsx_file:
 #     xlsx_file.write(response.content)
+
 
 # Cкачивание файла csv
 
