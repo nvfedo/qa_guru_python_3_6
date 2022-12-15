@@ -40,7 +40,7 @@ with open(resourses_csv_dir, 'wb') as csv_file:
 
 
 resourses_zip_dir = (os.path.abspath(os.path.join(os.path.dirname(__file__), '..', r'resourses\zip_test.zip')))
-
+1
 
 def test_create_zip():
     with ZipFile(resourses_zip_dir, 'w') as zip_create_file:
